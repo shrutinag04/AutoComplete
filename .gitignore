@@ -1,0 +1,55 @@
+# Ignore the Maven wrapper jar file
+/mvnw
+/mvnw.cmd
+
+# Ignore the Gradle wrapper files (if using Gradle instead of Maven)
+gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore build directories
+/target/
+/build/
+
+# Ignore IDE-specific files
+# Eclipse
+/.project
+/.classpath
+/.settings/
+/bin/
+/tmp/
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+
+# VS Code
+.vscode/
+
+# Operating System specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore logs
+*.log
+
+# Ignore the application properties for local development (if needed)
+# (Uncomment the line below if you don't want application.properties to be tracked)
+/src/main/resources/application.properties
+
+# Ignore local environment files
+.env
+*.local
+
+# Ignore the .mvn directory (Maven local repository)
+.mvn/
+
+# Ignore local test files (optional)
+test-outputs/
+
+# Ignore IntelliJ IDEA project files (optional)
+*.ipr
+*.iws
+
+# Ignore target folder in Maven
+target/
